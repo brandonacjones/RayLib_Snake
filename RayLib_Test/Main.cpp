@@ -195,7 +195,7 @@ void drawTreat() {
 int main() {
 	// Initialize
 	std::srand(static_cast<unsigned int>(std::time(nullptr))); // Seed the random generator for treat generation
-	InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Test"); // Create the window
+	InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Snake"); // Create the window
 	SetTargetFPS(4); // Set framerate
 	spawnTreat(); // Spawn initial treat
 
